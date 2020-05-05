@@ -1,0 +1,5 @@
+App\Domain\User\User:
+  user_1:
+    __construct:
+      name: jean-michel
+      email: jm@test.com

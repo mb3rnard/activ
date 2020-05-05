@@ -1,0 +1,21 @@
+{
+  "name": "activ",
+  "version": "1.0.0",
+  "description": "a simple task list app",
+  "main": "index.js",
+  "author": "mb3rnard <m.bernard1@protonmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@symfony/webpack-encore": "^0.29.1",
+    "node-sass": "^4.14.0",
+    "sass-loader": "^7.0.1",
+    "vue-loader": "^15.9.1",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-notifier": "^1.6.0"
+  }
+}

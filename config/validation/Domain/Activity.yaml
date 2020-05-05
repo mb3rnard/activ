@@ -1,0 +1,4 @@
+App\Domain\Activity\Activity:
+    properties:
+      name:
+        - NotBlank: ~

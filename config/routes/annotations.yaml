@@ -1,0 +1,3 @@
+app_actions:
+    resource: '../../src/Infra/Action'
+    type: annotation
