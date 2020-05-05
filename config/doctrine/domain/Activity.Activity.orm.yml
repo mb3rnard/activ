@@ -1,0 +1,20 @@
+App\Domain\Activity\Activity:
+  type: entity
+  table: activities
+  repositoryClass: App\Infra\Repository\ActivityRepository
+  id:
+      id:
+          type: entity_id
+          generator:
+              strategy: NONE
+
+  fields:
+      name:
+          type: string
+          unique: true
+          nullable: false
+      createdAt:
+          type: datetime
+      updatedAt:
+          type: datetime
+          nullable: true

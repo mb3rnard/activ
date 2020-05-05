@@ -1,0 +1,5 @@
+App\Domain\Activity\ActivityDate:
+  type: embeddable
+  fields:
+    date: { type: datetime }
+    day: { type: string }

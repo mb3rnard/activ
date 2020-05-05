@@ -1,0 +1,22 @@
+App\Domain\Activity\ActivityRecorded:
+  type: entity
+  table: activities_recorded
+  repositoryClass: App\Infra\Repository\ActivityRecordedRepository
+  id:
+      id:
+          type: integer
+          generator:
+              strategy: AUTO
+
+  embedded:
+      completedAt:
+          class: App\Domain\Activity\ActivityDate
+          columnPrefix: completed_at_
+
+  manyToOne:
+    activity:
+      targetEntity: App\Domain\Activity\Activity
+      joinColumn:
+        name: activity_id
+        referencedColumnName: id
+        nullable: false

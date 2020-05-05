@@ -1,0 +1,7 @@
+framework:
+    validation:
+        enabled: true
+        email_validation_mode: html5
+        mapping:
+            path:
+                - '%kernel.project_dir%/config/validation'
