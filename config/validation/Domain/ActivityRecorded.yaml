@@ -1,0 +1,3 @@
+App\Domain\Activity\ActivityRecorded:
+  constraints:
+    - App\Infra\Validation\Constraints\IsUniqueRecord: ~
